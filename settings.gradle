@@ -1,0 +1,3 @@
+include ':app', ':hellocharts-library', ':androidmapsutils-library', ':messagebar', ':library'
+include ':androiduitableview'
+include ':androidRichToast'

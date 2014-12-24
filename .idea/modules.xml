@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HealthMonitorAnalysis2014.iml" filepath="$PROJECT_DIR$/HealthMonitorAnalysis2014.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidRichToast/androidRichToast.iml" filepath="$PROJECT_DIR$/androidRichToast/androidRichToast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidmapsutils-library/androidmapsutils-library.iml" filepath="$PROJECT_DIR$/androidmapsutils-library/androidmapsutils-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androiduitableview/androiduitableview.iml" filepath="$PROJECT_DIR$/androiduitableview/androiduitableview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hellocharts-library/hellocharts-library.iml" filepath="$PROJECT_DIR$/hellocharts-library/hellocharts-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/messagebar/messagebar.iml" filepath="$PROJECT_DIR$/messagebar/messagebar.iml" />
+    </modules>
+  </component>
+</project>
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HMA2014</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_eiarea_overall">EIAreaOverall</string>
+    <string name="title_activity_ei_area_overall">EiAreaOverall</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_preview_column_chart">PreviewColumnChartActivity</string>
+    <string name="title_activity_pie_chart">PieChartActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_ei_time_type_line_column_dependency">Exercise intensity (time &amp; type)</string>
+    <string name="title_activity_leader_board_overall">LeaderBoardOverallActivity</string>
+    <string name="title_activity_view_pager_charts">ViewPagerChartsActivity</string>
+    <string name="title_activity_health_food_view_pager_charts">Health Food</string>
+    <string name="title_activity_exercise_duration_view_pager_charts">Exercise Duration Analysis</string>
+    <string name="title_activity_etime_state_view_pager_charts">Exercise Duration Analysis</string>
+    <string name="title_activity_heat_map">Heat Map</string>
+    <string name="title_activity_base_demo">BaseDemoActivity</string>
+    <string name="title_activity_heatmaps_demo">HeatmapsDemoActivity</string>
+    <string name="tweet_heat_map">Exercise Related Tweets Heat</string>
+    <string name="input_text">Looking for...</string>
+    <string name="button_send">Go!</string>
+    <string name="police_stations">Police Stations in Victoria</string>
+    <string name="medicare">Medicare Offices</string>
+    <string name="attrib_format">Data from &lt;a href = "%s">data.gov.au&lt;/a>, modified under &lt;a href = \"http://creativecommons.org/licenses/by/3.0/au/\">CC BY 3.0 AU&lt;/a></string>
+    <string name="police_stations_url">http://data.gov.au/dataset/police-station-locations/resource/76110b24-0f0a-4c29-9583-3f99eaba486c</string>
+    <string name="medicare_url">http://data.gov.au/dataset/location-of-medicare-offices/resource/5d38e1be-4011-49c4-8b8b-75405eeb1088</string>
+    <string name="exercise_intensity">Heatmap of Exercise Intensity</string>
+
+    <string-array name="heatmaps_datasets_array">
+        <item>@string/tweet_heat_map</item>
+        <item>@string/medicare</item>
+    </string-array>
+
+    <string name="title_activity_clustering_map">Clustering Map</string>
+    <string name="title_activity_custom_marker_clustering_demo">CustomMarkerClusteringDemoActivity</string>
+
+</resources>

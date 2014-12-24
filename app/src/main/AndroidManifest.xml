@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.weiranfang.healthmonitoranalysis2014" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--
+         The following two permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <meta-data
+        android:name="com.google.android.maps.v2.API_KEY"
+        android:value="AIzaSyCjpC2gaBQRj0IiEpC2cN6I32PpSq5KqBQ" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_hma2014"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light"
+        tools:replace="android:icon, android:theme" >
+        <activity
+            android:name="com.example.weiranfang.healthmonitoranalysis2014.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.weiranfang.healthmonitoranalysis2014.TweetHeatActivity"
+            android:label="Tweet Heat" >
+        </activity>
+        <activity
+            android:name="com.example.weiranfang.healthmonitoranalysis2014.ExerciseDurationActivity"
+            android:label="Exercise Duration" >
+        </activity>
+        <activity
+            android:name="com.example.weiranfang.healthmonitoranalysis2014.ExerciseFrequencyActivity"
+            android:label="Exercise Frequency" >
+        </activity>
+        <activity
+            android:name="com.example.weiranfang.healthmonitoranalysis2014.ExerciseSentimentActivity"
+            android:label="Exercise Sentiment" >
+        </activity>
+        <activity
+            android:name="com.example.weiranfang.healthmonitoranalysis2014.HealthFoodActivity"
+            android:label="Health Food" >
+        </activity>
+        <activity
+            android:name="com.example.weiranfang.healthmonitoranalysis2014.DemographyActivity"
+            android:label="Demography Analysis" >
+        </activity>
+        <activity
+            android:name="com.example.weiranfang.healthmonitoranalysis2014.EiAreaOverallPreviewColumnChartActivity"
+            android:label="Exercise Intensity (Area)" >
+        </activity>
+        <activity
+            android:name="com.example.weiranfang.healthmonitoranalysis2014.EiTypeOverallPieChartActivity"
+            android:label="Exercise Intensity (Type)" >
+        </activity>
+        <activity
+            android:name="com.example.weiranfang.healthmonitoranalysis2014.EiTimeTypeLineColumnDependencyActivity"
+            android:label="@string/title_activity_ei_time_type_line_column_dependency" >
+        </activity>
+        <activity
+            android:name="com.example.weiranfang.healthmonitoranalysis2014.LeaderBoardOverallActivity"
+            android:label="Leader Board" >
+        </activity>
+        <activity
+            android:name="com.example.weiranfang.healthmonitoranalysis2014.DemographyViewPagerChartsActivity"
+            android:label="Demography Distribution" >
+        </activity>
+        <activity
+            android:name="com.example.weiranfang.healthmonitoranalysis2014.HealthFoodViewPagerChartsActivity"
+            android:label="@string/title_activity_health_food_view_pager_charts" >
+        </activity>
+        <activity
+            android:name="com.example.weiranfang.healthmonitoranalysis2014.ETimeTypeViewPagerChartsActivity"
+            android:label="@string/title_activity_exercise_duration_view_pager_charts" >
+        </activity>
+        <activity
+            android:name="com.example.weiranfang.healthmonitoranalysis2014.ETimeStateViewPagerChartsActivity"
+            android:label="@string/title_activity_etime_state_view_pager_charts" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.example.weiranfang.healthmonitoranalysis2014.HeatMapActivity"
+            android:label="@string/title_activity_heat_map" >
+        </activity>
+        <activity
+            android:name="com.example.weiranfang.healthmonitoranalysis2014.BaseDemoActivity"
+            android:label="@string/title_activity_base_demo" >
+        </activity>
+        <activity
+            android:name="com.example.weiranfang.healthmonitoranalysis2014.HeatmapsDemoActivity"
+            android:label="@string/title_activity_heatmaps_demo" >
+        </activity>
+        <activity
+            android:name="com.example.weiranfang.healthmonitoranalysis2014.ClusteringMapActivity"
+            android:label="@string/title_activity_clustering_map" >
+        </activity>
+        <activity
+            android:name="com.example.weiranfang.healthmonitoranalysis2014.CustomMarkerClusteringDemoActivity"
+            android:label="@string/title_activity_custom_marker_clustering_demo" >
+        </activity>
+    </application>
+
+</manifest>
